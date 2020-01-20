@@ -3,7 +3,8 @@
         <GoBack v-if="$store.state.UA !== 1">首页</GoBack>
         <div class="header">
             <div class="block_user_pic">
-                <img :src="image" v-if="image !== 'data:image/jpeg;base64,' &&  image !== ''">
+                <!--<img :src="image" v-if="image !== 'data:image/jpeg;base64,' &&  image !== ''">-->
+                <img :src="image" v-if="image !== ''">
                 <img src="../assets/defaultAvator.png" v-else>
             </div>
             <p class="user_name">
@@ -105,7 +106,8 @@
             else{
               this.personData = response.data.data.data[0]
               if (JSON.stringify(this.personData.image) !== '{}') {
-                this.image = this.imageBase + this.personData.image.image
+                // this.image = this.imageBase + this.personData.image.image
+                this.image = this.personData.image.image
               }
 
               // localStorage.setItem('image', this.personData.image.image)
