@@ -90,7 +90,7 @@
         console.log('---------')
         console.log(this.jiami2("wenguoquan"))
 
-        axios.get('http://rest.apizza.net/mock/21c5cf3ed4022de252a80d8e8366c6f7/getUser', {  //?path=getUserDataByMail&mail=fengyanjing%40sinochem.com
+        axios.get('http://rest.apizza.net/mock/c16745d80509aa726ad0a1ca0797d75f/getUserDataByMail', {  //?path=getUserDataByMail&mail=fengyanjing%40sinochem.com
         // axios.get(this.$url, {
           params: {
             path: 'getUserDataByMail',
