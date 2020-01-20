@@ -1,0 +1,33 @@
+.DS_Store
+node_modules
+#/dist
+sinochem.des.js
+sinochem.des1.js
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+dist正式6-18.zip
+dist.zip
+dist1.zip
+dist2.zip
+dist3.zip
+dist4.zip
+dist5.zip
+dist6.zip
+dist7.zip
+dist8.zip
